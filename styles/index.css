@@ -239,13 +239,14 @@ input {
 iframe {
 	width: 67vw;
 	height: 67vh;
+	padding-bottom: 15px;
 }
 h4 {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: 400;
-	padding-bottom: 9px;
+	padding-bottom: 10px;
 }
 .views {
 	font-family: Arial, Helvetica, sans-serif;
