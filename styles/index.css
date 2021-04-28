@@ -124,7 +124,6 @@ table {
 }
 
 body {
-	height: 2000px;
 	background-color: rgb(24, 24, 24);
 	color: rgb(255, 255, 255);
 	font-family: 'Roboto', 'Noto', sans-serif;
@@ -232,4 +231,11 @@ input {
 	position: relative;
 	top: -12px;
 	left: -6px;
+}
+.player {
+	margin: -20px 5vw 5vh 5vw;
+}
+.player iframe {
+	width: 67vw;
+	height: 72vh;
 }
