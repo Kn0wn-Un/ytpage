@@ -267,7 +267,7 @@ h4 {
 	font-weight: 600;
 	letter-spacing: 0.007px;
 	position: relative;
-	top: -50px;
+	top: -42px;
 }
 .likes .sym {
 	font-size: 27px;
@@ -287,5 +287,60 @@ h4 {
 .likes .like,
 .likes .dislike {
 	border-bottom: 2px solid;
-	padding-bottom: 16px;
+	padding-bottom: 10px;
+}
+.channel-icon {
+	border-radius: 50%;
+}
+.channel-name {
+	font-weight: 600;
+	font-size: 14px;
+	position: relative;
+	left: 8px;
+	top: -30px;
+}
+.verified {
+	font-size: 13px;
+	color: rgb(170, 170, 170);
+	padding-left: 8px;
+	position: relative;
+	top: -28px;
+}
+.sub-count {
+	font-size: 12px;
+	color: rgb(170, 170, 170);
+	position: relative;
+	left: 60px;
+	top: -25px;
+}
+.description {
+	font-size: 14px;
+	padding-left: 60px;
+	line-height: 20px;
+}
+.show-more {
+	font-size: 12px;
+	color: rgb(170, 170, 170);
+	font-weight: 500;
+	padding: 30px 0;
+}
+.channel-details .signin-btn {
+	width: auto;
+	height: auto;
+	padding: 12px 20px;
+	font-weight: 500;
+	float: right;
+	position: relative;
+	top: -60px;
+	border-radius: 2px;
+}
+.subscribe-btn {
+	font-size: 15px;
+	padding: 13px 15px;
+	margin-left: 10px;
+	float: right;
+	position: relative;
+	top: -60px;
+	background-color: rgb(204, 0, 0);
+	border-radius: 2px;
 }
