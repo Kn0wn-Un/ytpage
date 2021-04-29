@@ -259,3 +259,33 @@ h4 {
 .line {
 	border-top: 1px solid rgb(70, 70, 70);
 }
+.likes {
+	font-family: Arial, Helvetica, sans-serif;
+	float: right;
+	color: rgb(170, 170, 170);
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 0.007px;
+	position: relative;
+	top: -50px;
+}
+.likes .sym {
+	font-size: 27px;
+	cursor: pointer;
+}
+.likes .txt {
+	position: relative;
+	top: -10px;
+	cursor: pointer;
+}
+.likes .like-btn {
+	padding-left: 18px;
+}
+.like-btn .share {
+	transform: scaleX(-1);
+}
+.likes .like,
+.likes .dislike {
+	border-bottom: 2px solid;
+	padding-bottom: 16px;
+}
