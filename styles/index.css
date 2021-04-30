@@ -138,6 +138,7 @@ header {
 	height: 56px;
 	background-color: rgba(33, 33, 33, 0.98);
 	padding: 10px 0;
+	z-index: 1;
 }
 .overlap {
 	padding: 50px 0;
@@ -353,11 +354,6 @@ h4 {
 }
 .profile-pic {
 	border-radius: 50%;
-	background-color: chocolate;
-	background-color: cornflowerblue;
-	background-color: crimson;
-	background-color: darkmagenta;
-	background-color: rgb(0, 0, 121);
 	height: 40px;
 	width: 40px;
 	text-align: center;
@@ -366,7 +362,8 @@ h4 {
 .profile-pic div {
 	padding-top: 9px;
 }
-.cmnt-atcl {
+.cmnt-atcl,
+.user-cmt {
 	display: flex;
 	padding: 15px 0;
 }
@@ -400,8 +397,9 @@ h4 {
 	font-size: 17px;
 }
 .comment-btns .like-btn .txt {
+	font-weight: 400;
 	position: relative;
-	top: -2px;
+	top: -4px;
 	left: 5px;
 }
 .comment-btns .txt {
@@ -419,4 +417,16 @@ h4 {
 .drpdwn {
 	position: relative;
 	top: 8px;
+}
+.user-cmt {
+	padding-top: 30px;
+}
+.user-cmt .comment {
+	width: 100%;
+	color: rgb(170, 170, 170);
+	font-size: 15px;
+}
+.user-cmt .comment .line {
+	position: relative;
+	top: 9px;
 }
