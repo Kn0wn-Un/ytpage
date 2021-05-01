@@ -432,11 +432,14 @@ h4 {
 }
 aside {
 	height: 100vh;
+	position: relative;
+	top: -70vh;
 }
 .reccm {
 	display: flex;
 	flex-direction: row;
 	width: 25vw;
+	padding-top: 20px;
 }
 .t-cname {
 	padding: 5px 0;
@@ -444,7 +447,7 @@ aside {
 .thumbnail {
 	height: 95px;
 	width: 165px;
-	padding: 3px;
+	visibility: visible;
 }
 .t-cname .verified {
 	top: 1px;
@@ -455,9 +458,36 @@ aside {
 }
 .runtime {
 	padding: 2px;
-	background-color: rgba(10, 10, 10, 0.72);
+	background-color: rgba(0, 0, 0, 0.72);
 	position: relative;
 	width: 40px;
-	top: -30px;
+	top: -27px;
 	left: 120px;
+	font-size: 15px;
+	visibility: visible;
+}
+.r-vname {
+	word-wrap: break-word;
+	width: 200px;
+}
+.hov-more {
+	color: white;
+	height: 95px;
+	width: 165px;
+	padding: 3px;
+	z-index: 2;
+	visibility: hidden;
+}
+.hov-more:hover {
+	visibility: visible;
+}
+.r-icons {
+	float: right;
+	position: relative;
+	top: -117px;
+}
+.r-icons span {
+	background-color: rgba(0, 0, 0, 0.72);
+	padding: 2px;
+	margin: 1.5px 0;
 }
