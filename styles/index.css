@@ -436,10 +436,12 @@ aside {
 	top: -70vh;
 }
 .reccm {
+	box-sizing: border-box;
 	display: flex;
 	flex-direction: row;
 	width: 25vw;
-	padding-top: 20px;
+	height: 110px;
+	padding-top: 5px;
 }
 .t-cname {
 	padding: 5px 0;
@@ -469,13 +471,13 @@ aside {
 .r-vname {
 	word-wrap: break-word;
 	width: 200px;
+	line-height: 18px;
 }
 .hov-more {
 	color: white;
 	height: 95px;
 	width: 165px;
 	padding: 3px;
-	z-index: 2;
 	visibility: hidden;
 }
 .hov-more:hover {
