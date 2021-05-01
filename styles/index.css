@@ -213,6 +213,7 @@ input {
 	position: relative;
 	top: -8px;
 	padding-bottom: 20px;
+	cursor: pointer;
 }
 .menu {
 	display: flex;
@@ -227,6 +228,7 @@ input {
 	left: -9px;
 }
 .yt {
+	font-size: 18px;
 	font-weight: 800;
 	position: relative;
 	top: -12px;
@@ -289,6 +291,7 @@ h4 {
 }
 .channel-icon {
 	border-radius: 50%;
+	cursor: pointer;
 }
 .channel-name {
 	font-weight: 600;
@@ -296,6 +299,7 @@ h4 {
 	position: relative;
 	left: 8px;
 	top: -30px;
+	cursor: pointer;
 }
 .verified {
 	font-size: 13px;
@@ -322,6 +326,7 @@ h4 {
 	color: rgb(170, 170, 170);
 	font-weight: 600;
 	padding: 30px 0;
+	cursor: pointer;
 }
 .channel-details .signin-btn {
 	width: auto;
@@ -342,6 +347,7 @@ h4 {
 	top: -60px;
 	background-color: rgb(204, 0, 0);
 	border-radius: 2px;
+	cursor: pointer;
 }
 .sort-icn {
 	position: relative;
@@ -351,6 +357,7 @@ h4 {
 	color: rgb(170, 170, 170);
 	font-size: 14px;
 	padding-left: 25px;
+	cursor: pointer;
 }
 .profile-pic {
 	border-radius: 50%;
@@ -366,6 +373,7 @@ h4 {
 .user-cmt {
 	display: flex;
 	padding: 15px 0;
+	cursor: pointer;
 }
 .profile-name {
 	font-size: 13px;
@@ -380,6 +388,7 @@ h4 {
 .comment-body {
 	font-size: 15px;
 	line-height: 19px;
+	cursor: default;
 }
 .comment {
 	padding-left: 20px;
@@ -445,6 +454,7 @@ aside {
 }
 .t-cname {
 	padding: 5px 0;
+	cursor: pointer;
 }
 .thumbnail {
 	height: 95px;
@@ -472,6 +482,7 @@ aside {
 	word-wrap: break-word;
 	width: 200px;
 	line-height: 18px;
+	cursor: pointer;
 }
 .hov-more {
 	color: white;
@@ -479,6 +490,7 @@ aside {
 	width: 165px;
 	padding: 3px;
 	visibility: hidden;
+	cursor: pointer;
 }
 .hov-more:hover {
 	visibility: visible;
@@ -492,4 +504,7 @@ aside {
 	background-color: rgba(0, 0, 0, 0.72);
 	padding: 2px;
 	margin: 1.5px 0;
+}
+.header-section div {
+	cursor: pointer;
 }
