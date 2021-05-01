@@ -430,3 +430,34 @@ h4 {
 	position: relative;
 	top: 9px;
 }
+aside {
+	height: 100vh;
+}
+.reccm {
+	display: flex;
+	flex-direction: row;
+	width: 25vw;
+}
+.t-cname {
+	padding: 5px 0;
+}
+.thumbnail {
+	height: 95px;
+	width: 165px;
+	padding: 3px;
+}
+.t-cname .verified {
+	top: 1px;
+	padding-left: 0;
+}
+.r-details {
+	padding: 3px 0 0 5px;
+}
+.runtime {
+	padding: 2px;
+	background-color: rgba(10, 10, 10, 0.72);
+	position: relative;
+	width: 40px;
+	top: -30px;
+	left: 120px;
+}
